@@ -5,6 +5,10 @@
   font-style: normal;
 }
 
+html {
+  font-size: 20px;
+}
+
 .app {
   position: relative;
   background-color: #121212;
@@ -27,7 +31,7 @@ li {
 
 .header-text {
   position: absolute;
-  font-size: 64px;
+  font-size: 3.2rem;
   width: 990px;
   left: 328px;
   bottom: 40px;
@@ -89,13 +93,13 @@ ul {
 }
 
 .main {
-  font-size: 20px;
+  font-size: 1rem;
 }
 
 .main-info {
   margin-top: 180px;
-  margin-left: 720px;
-  margin-right: 48px;
+  margin-left: 37.5%;
+  margin-right: 2.5%;
 }
 
 .main-info-text-one {
@@ -105,6 +109,7 @@ ul {
 .main-info-stats {
   margin-top: 60px;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -147,4 +152,33 @@ ul {
   border: 1px solid #323232;
   border-radius: 8px;
   padding: 16px 0;
+}
+
+.main-stages {
+  margin-top: 180px;
+  margin-left: 328px;
+}
+
+.main-stages-title {
+  font-size: 64px;
+  margin-bottom: 40px;
+}
+
+.main-stages-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.main-stages-card {
+  border: 1px solid white;
+  border-radius: 16px;
+  max-width: 20%;
+}
+
+.main-stages-card-stat {
+  font-size: 18px;
+}
+
+.main-stages-card-text {
+  font-size: 18px;
 }
