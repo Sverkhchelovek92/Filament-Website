@@ -121,47 +121,49 @@ function Main() {
           </div>
         </div>
         <div className="main-feedback">
-          <div className="main-feedback-title">
-            <h1>Хотите крутое видео?</h1>
-            <h1>Напишите мне</h1>
-          </div>
-          <div className="main-feedback-form">
-            <form>
-              <input
-                type="text"
-                className="feedback-input-name"
-                name="name"
-                placeholder="Ваше имя"
-                autoComplete="off"
-                required
-              ></input>
-              <input
-                type="text"
-                className="feedback-input-email"
-                name="email"
-                placeholder="Ваш e-mail"
-                autoComplete="off"
-                required
-              ></input>
-              <input
-                type="text"
-                className="feedback-input-text"
-                name="text"
-                placeholder="Вкратце опишите задачу"
-                autoComplete="off"
-                required
-              ></input>
-              <input
-                type="checkbox"
-                id="personalData"
-                name="personal"
-                value="check"
-              />
-              <label for="personalData">
-                Даю согласие на обработку персональных данных
-              </label>
-              <button type="submit">Отправить</button>
-            </form>
+          <div className="main-feedback-container">
+            <div className="main-feedback-title">
+              <h1>Хотите крутое видео?</h1>
+              <h1>Напишите мне</h1>
+            </div>
+            <div className="main-feedback-form">
+              <form>
+                <input
+                  type="text"
+                  className="feedback-input-name"
+                  name="name"
+                  placeholder="Ваше имя"
+                  autoComplete="off"
+                  required
+                ></input>
+                <input
+                  type="text"
+                  className="feedback-input-email"
+                  name="email"
+                  placeholder="Ваш e-mail"
+                  autoComplete="off"
+                  required
+                ></input>
+                <input
+                  type="text"
+                  className="feedback-input-text"
+                  name="text"
+                  placeholder="Вкратце опишите задачу"
+                  autoComplete="off"
+                  required
+                ></input>
+                <input
+                  type="checkbox"
+                  id="personalData"
+                  name="personal"
+                  value="check"
+                />
+                <label for="personalData">
+                  Даю согласие на обработку персональных данных
+                </label>
+                <button type="submit">Отправить</button>
+              </form>
+            </div>
           </div>
         </div>
       </div>
