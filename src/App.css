@@ -198,3 +198,20 @@ ul {
   max-width: 50%;
   margin: auto;
 }
+
+.footer-border {
+  margin-left: 17.08%;
+  border: 1px solid #858585;
+}
+
+.footer {
+  color: #858585;
+  font-size: 0.9vw;
+}
+
+.footer-flex {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  padding-bottom: 20px;
+}
