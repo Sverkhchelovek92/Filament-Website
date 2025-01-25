@@ -190,6 +190,10 @@ ul {
   font-size: 0.9vw;
 }
 
+.main-feedback {
+  margin-top: 200px;
+}
+
 .main-feedback-title {
   font-size: 3.2vw;
 }
@@ -197,6 +201,55 @@ ul {
 .main-feedback-container {
   max-width: 50%;
   margin: auto;
+}
+
+.main-feedback-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-feedback-form-top {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-input-name,
+.feedback-input-email {
+  width: 48.42%;
+  border: 1px solid #323232;
+  border-radius: 8px;
+  height: 50px;
+  padding: 10px;
+}
+
+.feedback-input-text {
+  width: 100%;
+  border: 1px solid #323232;
+  border-radius: 8px;
+  box-sizing: border-box;
+  padding-left: 10px;
+  height: 120px;
+  text-align: left;
+  vertical-align: top;
+}
+
+.feedback-input-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.feedback-input-bottom-left {
+  display: flex;
+}
+
+.feedback-input-bottom-left,
+.feedback-input-bottom-right {
+  width: 48.42%;
+}
+
+.feedback-checkbox-div {
+  border: 1px solid #323232;
 }
 
 .footer-border {

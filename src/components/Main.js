@@ -128,22 +128,25 @@ function Main() {
             </div>
             <div className="main-feedback-form">
               <form>
-                <input
-                  type="text"
-                  className="feedback-input-name"
-                  name="name"
-                  placeholder="Ваше имя"
-                  autoComplete="off"
-                  required
-                ></input>
-                <input
-                  type="text"
-                  className="feedback-input-email"
-                  name="email"
-                  placeholder="Ваш e-mail"
-                  autoComplete="off"
-                  required
-                ></input>
+                <div className="main-feedback-form-top">
+                  <input
+                    type="text"
+                    className="feedback-input-name"
+                    name="name"
+                    placeholder="Ваше имя"
+                    autoComplete="off"
+                    required
+                  ></input>
+                  <input
+                    type="text"
+                    className="feedback-input-email"
+                    name="email"
+                    placeholder="Ваш e-mail"
+                    autoComplete="off"
+                    required
+                  ></input>
+                </div>
+
                 <input
                   type="text"
                   className="feedback-input-text"
@@ -152,16 +155,27 @@ function Main() {
                   autoComplete="off"
                   required
                 ></input>
-                <input
-                  type="checkbox"
-                  id="personalData"
-                  name="personal"
-                  value="check"
-                />
-                <label for="personalData">
-                  Даю согласие на обработку персональных данных
-                </label>
-                <button type="submit">Отправить</button>
+                <div className="feedback-input-bottom">
+                  <div className="feedback-input-bottom-left">
+                    <div className="feedback-checkbox-div">
+                      <input
+                        type="checkbox"
+                        id="personalData"
+                        name="personal"
+                        value="check"
+                      />
+                    </div>
+
+                    <div className="personal-data">
+                      Даю согласие на обработку персональных данных
+                    </div>
+                  </div>
+                  <div className="feedback-input-bottom-right">
+                    <button type="submit" className="feedback-submit-btn">
+                      Отправить
+                    </button>
+                  </div>
+                </div>
               </form>
             </div>
           </div>
