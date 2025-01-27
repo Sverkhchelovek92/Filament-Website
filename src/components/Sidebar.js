@@ -1,11 +1,14 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar-top">
         <div className="sidebar-title">
-          <h2 className="sidebar-title-name">Никита Парфенов</h2>
+          <h2 className="sidebar-title-name">
+            <Link to="/">Никита Парфенов</Link>
+          </h2>
         </div>
         <ul className="sidebare-list-top">
           <li>Все работы</li>

@@ -1,16 +1,17 @@
 import './App.css'
-import Footer from './components/Footer'
-import Header from './components/Header'
-import Main from './components/Main'
 import Sidebar from './components/Sidebar'
+
+import Home from './pages/Home'
+
+import { Routes, Route } from 'react-router-dom'
 
 function App() {
   return (
     <div className="app">
-      <Header />
       <Sidebar />
-      <Main />
-      <Footer />
+      <Routes>
+        <Route path="/" element={<Home />} />
+      </Routes>
     </div>
   )
 }

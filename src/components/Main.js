@@ -147,14 +147,12 @@ function Main() {
                   ></input>
                 </div>
 
-                <input
-                  type="text"
+                <textarea
                   className="feedback-input-text"
                   name="text"
                   placeholder="Вкратце опишите задачу"
                   autoComplete="off"
-                  required
-                ></input>
+                ></textarea>
                 <div className="feedback-input-bottom">
                   <div className="feedback-input-bottom-left">
                     <div className="feedback-checkbox-div">

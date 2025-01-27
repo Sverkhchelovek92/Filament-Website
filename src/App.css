@@ -16,6 +16,13 @@ html {
   font-family: 'TT Norms', sans-serif;
 }
 
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
 li {
   list-style-type: none;
 }
@@ -228,7 +235,7 @@ ul {
   border: 1px solid #323232;
   border-radius: 8px;
   box-sizing: border-box;
-  padding-left: 10px;
+  padding: 10px;
   height: 120px;
   text-align: left;
   vertical-align: top;
