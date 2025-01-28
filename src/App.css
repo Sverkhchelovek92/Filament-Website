@@ -219,6 +219,7 @@ ul {
   margin-top: 50px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 18px;
 }
 
 .feedback-input-name,
@@ -226,7 +227,7 @@ ul {
   width: 48.42%;
   border: 1px solid #323232;
   border-radius: 8px;
-  height: 50px;
+  height: 40px;
   padding: 10px;
 }
 
@@ -239,11 +240,13 @@ ul {
   height: 120px;
   text-align: left;
   vertical-align: top;
+  margin-bottom: 18px;
 }
 
 .feedback-input-bottom {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 150px;
 }
 
 .feedback-input-bottom-left {
@@ -257,6 +260,20 @@ ul {
 
 .feedback-checkbox-div {
   border: 1px solid #323232;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-right: 15px;
+  border-radius: 8px;
+}
+
+.feedback-submit-btn {
+  border: 1px solid #323232;
+  width: 100%;
+  padding: 10px 0;
+  border-radius: 8px;
 }
 
 .footer-border {

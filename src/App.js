@@ -1,5 +1,7 @@
 import './App.css'
 import Sidebar from './components/Sidebar'
+import Contacts from './pages/Contacts'
+import Courses from './pages/Courses'
 
 import Home from './pages/Home'
 
@@ -11,6 +13,8 @@ function App() {
       <Sidebar />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="courses" element={<Courses />} />
+        <Route path="contacts" element={<Contacts />} />
       </Routes>
     </div>
   )

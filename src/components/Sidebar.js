@@ -21,8 +21,12 @@ function Sidebar() {
       </div>
       <div className="sidebar-bottom">
         <ul className="sidebare-list-bottom">
-          <li>Курсы / обучение</li>
-          <li>Контакты</li>
+          <li>
+            <Link to="courses">Курсы / обучение</Link>
+          </li>
+          <li>
+            <Link to="contacts">Контакты</Link>
+          </li>
         </ul>
         <button className="sidebar-btn">Рассчитать проект</button>
       </div>
