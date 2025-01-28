@@ -54,7 +54,11 @@ function Main() {
           <div className="main-stages-cards">
             <div className="main-stages-card">
               <div className="main-stages-card-top">
-                <div className="main-stages-card-graphic"></div>
+                <div className="main-stages-card-graphic">
+                  <div className="small-circle-1">
+                    <div className="big-circle-1"></div>
+                  </div>
+                </div>
                 <div className="main-stages-card-stat">
                   +20% от общего объема работ
                 </div>
@@ -71,7 +75,11 @@ function Main() {
             </div>
             <div className="main-stages-card">
               <div className="main-stages-card-top">
-                <div className="main-stages-card-graphic"></div>
+                <div className="main-stages-card-graphic">
+                  <div className="small-circle-2">
+                    <div className="big-circle-2"></div>
+                  </div>
+                </div>
                 <div className="main-stages-card-stat">
                   +15% от общего объема работ
                 </div>
@@ -88,7 +96,11 @@ function Main() {
             </div>
             <div className="main-stages-card">
               <div className="main-stages-card-top">
-                <div className="main-stages-card-graphic"></div>
+                <div className="main-stages-card-graphic">
+                  <div className="small-circle-3">
+                    <div className="big-circle-3"></div>
+                  </div>
+                </div>
                 <div className="main-stages-card-stat">
                   +30% от общего объема работ
                 </div>
@@ -103,7 +115,11 @@ function Main() {
             </div>
             <div className="main-stages-card">
               <div className="main-stages-card-top">
-                <div className="main-stages-card-graphic"></div>
+                <div className="main-stages-card-graphic">
+                  <div className="small-circle-4">
+                    <div className="big-circle-4"></div>
+                  </div>
+                </div>
                 <div className="main-stages-card-stat">
                   +35% от общего объема работ
                 </div>
@@ -161,6 +177,7 @@ function Main() {
                         id="personalData"
                         name="personal"
                         value="check"
+                        className="feedback-checkbox"
                       />
                     </div>
 

@@ -187,10 +187,18 @@ ul {
   border: 1px solid white;
   border-radius: 16px;
   max-width: 20%;
+  padding: 15px;
+}
+
+.main-stages-card-top {
+  display: flex;
+  margin-top: 10px;
+  margin-left: 10px;
 }
 
 .main-stages-card-stat {
   font-size: 0.8vw;
+  width: 50%;
 }
 
 .main-stages-card-text {
@@ -267,6 +275,11 @@ ul {
   box-sizing: border-box;
   margin-right: 15px;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.feedback-checkbox {
+  cursor: pointer;
 }
 
 .feedback-submit-btn {
@@ -291,4 +304,46 @@ ul {
   justify-content: space-between;
   margin-top: 20px;
   padding-bottom: 20px;
+}
+
+.small-circle-1,
+.small-circle-2,
+.small-circle-3,
+.small-circle-4 {
+  position: relative;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #222222;
+  margin-right: 15px;
+  margin-bottom: 30px;
+}
+
+.big-circle-1,
+.big-circle-2,
+.big-circle-3,
+.big-circle-4 {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.big-circle-1 {
+  background-image: conic-gradient(#ffffff 20%, transparent 0);
+}
+
+.big-circle-2 {
+  background-image: conic-gradient(#ffffff 35%, transparent 0);
+}
+
+.big-circle-3 {
+  background-image: conic-gradient(#ffffff 65%, transparent 0);
+}
+
+.big-circle-4 {
+  background-color: #ffffff;
 }
