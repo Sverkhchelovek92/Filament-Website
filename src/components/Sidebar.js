@@ -1,5 +1,5 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { NavLink, Link } from 'react-router-dom'
 
 function Sidebar() {
   return (
@@ -22,10 +22,12 @@ function Sidebar() {
       <div className="sidebar-bottom">
         <ul className="sidebare-list-bottom">
           <li>
-            <Link to="courses">Курсы / обучение</Link>
+            <NavLink to="courses">Курсы / обучение</NavLink>
           </li>
           <li>
-            <Link to="contacts">Контакты</Link>
+            <NavLink to="contacts" activeClassName="active">
+              Контакты
+            </NavLink>
           </li>
         </ul>
         <button className="sidebar-btn">Рассчитать проект</button>

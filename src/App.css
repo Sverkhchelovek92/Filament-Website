@@ -103,7 +103,6 @@ ul {
   border-radius: 8px;
   width: 80%;
   height: 52px;
-  /* padding: 16px 25px; */
 }
 
 .main {
@@ -346,4 +345,12 @@ ul {
 
 .big-circle-4 {
   background-color: #ffffff;
+}
+
+.page {
+  height: 100vh;
+}
+
+.active {
+  font-weight: bold;
 }

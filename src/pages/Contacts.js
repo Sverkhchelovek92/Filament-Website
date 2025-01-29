@@ -2,8 +2,8 @@ import React from 'react'
 
 function Contacts() {
   return (
-    <div className="main">
-      <div className="container">Contacts</div>
+    <div className="page">
+      <div className="container">Контакты</div>
     </div>
   )
 }
