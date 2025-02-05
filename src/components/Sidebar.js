@@ -11,7 +11,9 @@ function Sidebar() {
           </h2>
         </div>
         <ul className="sidebare-list-top">
-          <li>Все работы</li>
+          <li>
+            <NavLink to="all-videos">Все работы</NavLink>
+          </li>
           <li>Промышленность</li>
           <li>Корпоративные</li>
           <li>Бизнес</li>
@@ -25,9 +27,7 @@ function Sidebar() {
             <NavLink to="courses">Курсы / обучение</NavLink>
           </li>
           <li>
-            <NavLink to="contacts" activeClassName="active">
-              Контакты
-            </NavLink>
+            <NavLink to="contacts">Контакты</NavLink>
           </li>
         </ul>
         <button className="sidebar-btn">Рассчитать проект</button>

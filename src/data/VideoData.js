@@ -4,6 +4,7 @@ const VideoData = [
     title: 'Acm',
     category: 'Industry',
     thumbnail: '001.png',
+    year: 2018,
     videoUrl: '',
   },
   {
@@ -11,6 +12,7 @@ const VideoData = [
     title: 'Maket',
     category: 'Industry',
     thumbnail: '002.png',
+    year: 2018,
     videoUrl: '',
   },
 ]
