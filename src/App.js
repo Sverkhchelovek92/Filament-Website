@@ -7,6 +7,7 @@ import Courses from './pages/Courses'
 import Home from './pages/Home'
 
 import { Routes, Route } from 'react-router-dom'
+import NotFound from './pages/NotFound'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="courses" element={<Courses />} />
         <Route path="contacts" element={<Contacts />} />
         <Route path="all-videos" element={<AllVideos />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
   )
