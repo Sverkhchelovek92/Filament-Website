@@ -171,7 +171,7 @@ function Main() {
                 ></textarea>
                 <div className="feedback-input-bottom">
                   <div className="feedback-input-bottom-left">
-                    <div className="feedback-checkbox-div">
+                    <label className="feedback-checkbox-div" for="personalData">
                       <input
                         type="checkbox"
                         id="personalData"
@@ -179,7 +179,7 @@ function Main() {
                         value="check"
                         className="feedback-checkbox"
                       />
-                    </div>
+                    </label>
 
                     <div className="personal-data">
                       Даю согласие на обработку персональных данных
